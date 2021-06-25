@@ -15,7 +15,7 @@ public class DragAndDropConcept {
 		
 		driver.get("http://www.jqueryui.com/droppable/");
 		
-		driver.switchTo().frame(0);  //pass 0 if there is only one frame used
+	//	driver.switchTo().frame(0);  //pass 0 if there is only one frame used
 		
 		Actions action = new Actions(driver);
 		
